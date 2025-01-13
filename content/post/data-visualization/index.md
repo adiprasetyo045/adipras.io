@@ -1,77 +1,113 @@
 ---
-title: "Cara Mudah Membuat Visualisasi Data Interaktif"
-summary: Pelajari cara menampilkan data dengan grafik dan diagram menggunakan Hugo.
-date: 2025-10-25
+title: 📈 Communicate your results effectively with the best data visualizations
+summary: Use popular tools such as Plotly, Mermaid, and data frames.
+date: 2023-10-25
 authors:
   - admin
 tags:
-  - Visualisasi Data
-  - Plotly
-  - Mermaid
+  - Hugo
+  - Hugo Blox
+  - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
-date: 2025-01-13
-tags:
-  - data
-  - visualization
 ---
 
-## Visualisasi Data
+Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
 
-Visualisasi data adalah cara yang bagus untuk membuat data lebih mudah dipahami. Di sini, kita akan belajar cara menampilkan data menggunakan **grafik interaktif** dengan Plotly dan **diagram** dengan Mermaid di Hugo.
+Use popular tools such as Plotly, Mermaid, and data frames.
 
 ## Charts
 
-Plotly adalah alat untuk membuat grafik yang interaktif, seperti grafik batang, garis, atau lingkaran. Ikuti langkah-langkah berikut untuk membuat grafik:
+Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
 
-1. **Buat Grafik**  
-   Gunakan Plotly untuk membuat grafik. Simpan grafiknya dalam file JSON, misalnya `grafik-bar.json`.
+Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
 
-2. **Tambahkan Grafik ke Halaman**  
-   Tempatkan file JSON di folder halaman dan gunakan kode berikut untuk menampilkan grafik:
+Demo:
 
-   ```go
-   {{</* chart data="grafik-bar.json" */>}}
+{{< chart data="line-chart" >}}
 
+You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
 
 ## Diagrams
 
 Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
 
-Contoh **flowchart**:
+An example **flowchart**:
 
- graph TD
-A[Mulai] --> B{Keputusan}
-B -->|Ya| C[Tugas 1]
-B -->|Tidak| D[Tugas 2]
-C --> E[Selesai]
-D --> E
+    ```mermaid
+    graph TD
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+    ```
 
- ## sequenceDiagram
-Alice->>John: Hallo John, bagaimana kabarmu?
-loop Cek Kesehatan
-    John->>John: Melawan hipokondria
+renders as
+
+```mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
+
+An example **sequence diagram**:
+
+    ```mermaid
+    sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+    ```
+
+renders as
+
+```mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
 end
-Note right of John: Pikiran Rasional!
-John-->>Alice: Baik!
-John->>Bob: Bagaimana denganmu?
-Bob-->>John: Sehat-sehat saja!
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
 
+An example **class diagram**:
 
-### classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am I?
-Class09 --* C3
-Class09 --|> Class07
+    ```mermaid
+    classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    Class03 *-- Class04
+    Class05 o-- Class06
+    Class07 .. Class08
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    Class08 <--> C2: Cool label
+    ```
+
+renders as
+
+```mermaid
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 Class03 *-- Class04
 Class05 o-- Class06
 Class07 .. Class08
-Class09 --> C2 : Where am I?
+Class09 --> C2 : Where am i?
 Class09 --* C3
 Class09 --|> Class07
 Class07 : equals()
@@ -79,10 +115,43 @@ Class07 : Object[] elementData
 Class01 : size()
 Class01 : int chimp
 Class01 : int gorilla
-Class08 <--> C2 : Cool label
- ## tabel nilai 
-Nama,Nilai,Grade
-Alice,85,A
-Bob,78,B
-Charlie,92,A
-{{</* table path="data.csv" header="true" caption="Tabel Nilai Siswa" */>}}
+Class08 <--> C2: Cool label
+```
+
+An example **state diagram**:
+
+    ```mermaid
+    stateDiagram
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+    ```
+
+renders as
+
+```mermaid
+stateDiagram
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
+
+## Data Frames
+
+Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
+
+```go
+{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
+```
+
+renders as
+
+{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
+
+## Did you find this page helpful? Consider sharing it 🙌
