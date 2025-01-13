@@ -1,5 +1,5 @@
 ---
-title: 📈  Cara Mudah Membuat Visualisasi Data Interaktif
+title: "Cara Mudah Membuat Visualisasi Data Interaktif"
 summary: Pelajari cara menampilkan data dengan grafik dan diagram menggunakan Hugo.
 date: 2025-10-25
 authors:
@@ -11,7 +11,7 @@ tags:
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
-  **Visualisasi Data** adalah cara yang bagus untuk membuat data lebih mudah dipahami. Di sini, kita akan belajar cara menampilkan data menggunakan **grafik interaktif** dengan Plotly dan **diagram** dengan Mermaid di Hugo.
+  **VisualisasiData** adalah cara yang bagus untuk membuat data lebih mudah dipahami. Di sini, kita akan belajar cara menampilkan data menggunakan **grafik interaktif** dengan Plotly dan **diagram** dengan Mermaid di Hugo.
 ---
 
 ## Charts
