@@ -3,11 +3,11 @@
 title: adi prasetyo
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Adi 
+last_name: Prasetyo
 
 # Status emoji
 status:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Mahasiswa rekayasa perangkat lunak
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
