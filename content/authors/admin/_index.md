@@ -62,7 +62,6 @@ education:
       text: 'Read Thesis'
       url: 'https://example.com'
   - area: SMA Muhammadiyah 1 Wonogiri
-    url: https://maps.app.goo.gl/qChwUns478VGLNWp6
     institution: SMA muhammadiyah 1 wonogiri
     date_start: 2020-01-01
     date_end: 2023-12-12
@@ -74,7 +73,6 @@ education:
       - Multimedia
       - Information Security
   - area: SMP Muhammadiyah 7 Eromoko
-    url : https://maps.app.goo.gl/KCqYF1SbCWh23kJF9
     institution: SMP muhammadiyah 7 eromoko
     date_start: 2017-01-01
     date_end: 2020-12-31
