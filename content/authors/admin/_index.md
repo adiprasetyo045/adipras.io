@@ -90,7 +90,7 @@ work:
     company_logo: ''
     date_start: 2021-01-01
     date_end: '2022-01-01'
-    summary: |2-
+    summary: |
 
      Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
     
@@ -167,4 +167,3 @@ awards:
 ## About Me
 
  Adi Prasetyo adalah mahasiswa Rekayasa Perangkat Lunak di ITESA Muhammadiyah Semarang, dengan minat dalam pengembangan perangkat lunak berbasis web dan mobile serta penelitian yang mengintegrasikan teknologi AI dalam pengembangan software. Saya fokus pada pengembangan aplikasi prototipe untuk mempercepat siklus pengujian dan iterasi produk, memungkinkan umpan balik yang lebih cepat dan peningkatan fungsionalitas aplikasi yang lebih efisien.
-
