@@ -1,6 +1,6 @@
 ---
 # Display name
-title: adi prasetyo
+title: Adi prasetyo
 
 # Name pronunciation (optional)
 name_pronunciation: 
@@ -24,14 +24,14 @@ role: Mahasiswa rekayasa perangkat lunak
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: ITESA muhammadiyah semarang
+    url: https://itesa.ac.id/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'prasetyaadhi398@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -47,17 +47,19 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Software Engineering
+  - Web Development
+  - Mobile Application Development
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: S1 Rekayasa Perangkat Lunak
+    institution: ITESA Muhammadiyah Semarang
+    date_start: 2023-06-03
+    date_end: 2027-06-03
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Aktif mempelajari pengembangan perangkat lunak modern dengan fokus pada
+      pengembangan aplikasi berbasis web dan mobile. Tertarik dalam penelitian
+      yang mengintegrasikan teknologi AI dalam pengembangan software.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
