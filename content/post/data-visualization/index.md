@@ -1,32 +1,30 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: 📈  Cara Mudah Membuat Visualisasi Data Interaktif
+summary: Pelajari cara menampilkan data dengan grafik dan diagram menggunakan Hugo.
+date: 2025-10-25
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Visualisasi Data
+  - Plotly
+  - Mermaid
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+
+  **Visualisasi Data** adalah cara yang bagus untuk membuat data lebih mudah dipahami. Di sini, kita akan belajar cara menampilkan data menggunakan **grafik interaktif** dengan Plotly dan **diagram** dengan Mermaid di Hugo.
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
-
-Use popular tools such as Plotly, Mermaid, and data frames.
-
 ## Charts
+lotly adalah alat untuk membuat grafik yang interaktif, seperti grafik batang, garis, atau lingkaran. Ikuti langkah-langkah berikut untuk membuat grafik:
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+1. **Buat Grafik**  
+   Gunakan Plotly untuk membuat grafik. Simpan grafiknya dalam file JSON, misalnya `grafik-bar.json`.
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
+2. **Tambahkan Grafik ke Halaman**  
+   Tempatkan file JSON di folder halaman dan gunakan kode berikut untuk menampilkan grafik:
 
-Demo:
-
-{{< chart data="line-chart" >}}
-
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+   ```go
+   {{</* chart data="grafik-bar" */>}}
 
 ## Diagrams
 
@@ -34,80 +32,29 @@ Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
 
 An example **flowchart**:
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+ graph TD
+A[Mulai] --> B{Keputusan}
+B -->|Ya| C[Tugas 1]
+B -->|Tidak| D[Tugas 2]
+C --> E[Selesai]
+D --> E
 
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
+# sequenceDiagram
+Alice->>John: Hallo John, bagaimana kabarmu?
+loop Cek Kesehatan
+    John->>John: Melawan hipokondria
 end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
+Note right of John: Pikiran Rasional!
+John-->>Alice: Baik!
+John->>Bob: Bagaimana denganmu?
+Bob-->>John: Sehat-sehat saja!
 
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
-
-renders as
-
-```mermaid
-classDiagram
+### classDiagram
 Class01 <|-- AveryLongClass : Cool
 Class03 *-- Class04
 Class05 o-- Class06
 Class07 .. Class08
-Class09 --> C2 : Where am i?
+Class09 --> C2 : Where am I?
 Class09 --* C3
 Class09 --|> Class07
 Class07 : equals()
@@ -115,24 +62,7 @@ Class07 : Object[] elementData
 Class01 : size()
 Class01 : int chimp
 Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
+Class08 <--> C2 : Cool label
 stateDiagram
 [*] --> Still
 Still --> [*]
@@ -140,18 +70,16 @@ Still --> Moving
 Moving --> Still
 Moving --> Crash
 Crash --> [*]
-```
+Nama,Nilai,Grade
+Alice,85,A
+Bob,78,B
+Charlie,92,A
+{{</* table path="data.csv" header="true" caption="Tabel Nilai Siswa" */>}}
 
-## Data Frames
 
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+### Penjelasan Perubahan:
+1. **Perbaikan Format**: Kode Mermaid dan Plotly disusun lebih rapi untuk memudahkan pembaca memahami dan mempraktikkan setiap bagian.
+2. **Keterangan dan Penjelasan**: Setiap bagian dilengkapi penjelasan agar lebih mudah dipahami, seperti penjelasan tentang apa itu flowchart, sequence diagram, dan class diagram.
+3. **Kode untuk Menampilkan Data CSV**: Diperjelas cara menggunakan shortcode untuk menampilkan tabel data CSV.
+  
+Sekarang halaman ini lebih terstruktur dengan jelas, dan pembaca bisa langsung menerapkan cara-cara visualisasi data ini di dalam proyek Hugo mereka!

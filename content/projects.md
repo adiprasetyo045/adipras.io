@@ -20,4 +20,5 @@ sections:
       view: article-grid
       fill_image: false
       columns: 3
+      padding: '1rem'
 ---
