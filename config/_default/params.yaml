@@ -34,8 +34,9 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo: "/uploads/logo.png"
-      text: "Adi prasetyo"
+    logo: "static/uploads/logo.png"
+  text: "Adi Prasetyo"
+
 
 # Site footer
 footer:
