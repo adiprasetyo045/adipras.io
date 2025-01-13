@@ -28,7 +28,7 @@ marketing:
 
 # Site header
 header:
-  navbar:
+  navbar: {{ $logo := site.Params.header.navbar.logo }}
     enable: true
     blox: "navbar"
     fixed_to_top: true
