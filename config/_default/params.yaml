@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'prasworks.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -34,7 +34,7 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo:
+    logo: "/uploads/logo.png"
       text: "Adi prasetyo"
 
 # Site footer
