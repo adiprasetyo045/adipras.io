@@ -10,8 +10,13 @@ tags:
   - Mermaid
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
-
-  **VisualisasiData** adalah cara yang bagus untuk membuat data lebih mudah dipahami. Di sini, kita akan belajar cara menampilkan data menggunakan **grafik interaktif** dengan Plotly dan **diagram** dengan Mermaid di Hugo.
+  title: "Data Visualization"
+date: 2025-01-13
+tags:
+  - data
+  - visualization
+---
+   adalah cara yang bagus untuk membuat data lebih mudah dipahami. Di sini, kita akan belajar cara menampilkan data menggunakan **grafik interaktif** dengan Plotly dan **diagram** dengan Mermaid di Hugo.
 ---
 
 ## Charts
