@@ -1,37 +1,39 @@
 ---
-title: "An example preprint / working paper"
+title: "Visualisasi Data dengan ggplot2"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
+- adi prasetyo
+date: "2025-04-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["tutorial"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Tutorial Visualisasi Data"
+publication_short: "Tutorial ggplot2"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Paket ggplot2 dalam R menyediakan kerangka kerja yang kuat untuk membuat berbagai jenis grafik dengan cara yang elegan dan terstruktur. Tutorial ini membahas dasar-dasar visualisasi data menggunakan ggplot2, mulai dari membuat grafik dasar hingga kustomisasi tingkat lanjut.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Tutorial ini membahas konsep visualisasi data menggunakan ggplot2 di R, termasuk pembuatan grafik dasar, kustomisasi, dan contoh penggunaan.
 
 tags:
-- Large Language Models
+- Data Visualization
+- ggplot2
+- R Programming
 
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+- name: Dokumentasi ggplot2
+  url: https://drive.google.com/file/d/1Yvd09aRp1ZyIg0rhciL_4vAbzopJBou3/view?usp=drive_link
+url_pdf: '#'
+url_code: 'https://github.com/adiprasetyo045/dataviz_ggplot.git'
 url_dataset: '#'
 url_poster: '#'
 url_project: ''
@@ -59,13 +61,39 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ggplot2-tutorial
 ---
 
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+## Pengantar ggplot2
+Paket **ggplot2** adalah bagian dari tidyverse yang dirancang untuk membuat visualisasi data dengan cara yang konsisten dan intuitif. Dengan menggunakan prinsip *grammar of graphics*, ggplot2 memungkinkan pengguna untuk membangun grafik melalui lapisan-lapisan visualisasi.
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+### Cara Menggunakan ggplot2
+Untuk menggunakan ggplot2, pastikan Anda telah menginstalnya di R:
+```r
+install.packages("ggplot2")
+library(ggplot2)
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+# Scatterplot dengan ggplot2
+ggplot(data = mtcars, aes(x = wt, y = mpg)) +
+  geom_point(color = "blue") +
+  labs(title = "Hubungan Berat Kendaraan dan Konsumsi BBM",
+       x = "Berat Kendaraan (1000 lbs)",
+       y = "Konsumsi BBM (mpg)")
+# Scatterplot dengan garis regresi
+ggplot(data = mtcars, aes(x = wt, y = mpg)) +
+  geom_point(color = "blue") +
+  geom_smooth(method = "lm", color = "red", se = FALSE) +
+  labs(title = "Hubungan Berat Kendaraan dan Konsumsi BBM dengan Garis Regresi",
+       x = "Berat Kendaraan (1000 lbs)",
+       y = "Konsumsi BBM (mpg)")
+# Scatterplot dengan tema minimal
+ggplot(data = mtcars, aes(x = wt, y = mpg)) +
+  geom_point(color = "blue") +
+  theme_minimal() +
+  labs(title = "Hubungan Berat Kendaraan dan Konsumsi BBM (Tema Minimal)",
+       x = "Berat Kendaraan (1000 lbs)",
+       y = "Konsumsi BBM (mpg)")
+#Kesimpulan
+        Paket ggplot2 memberikan fleksibilitas tinggi dalam membuat visualisasi data yang menarik dan informatif. Dengan memahami konsep dasar dan kustomisasi lebih lanjut, Anda dapat membuat grafik yang sesuai dengan kebutuhan analisis data Anda.
+
+        Konten di atas memberikan penjelasan dasar tentang **visualisasi data dengan ggplot2** beserta contoh kode. Anda dapat menyesuaikannya sesuai dengan kebutuhan atau menambahkan materi lebih lanjut jika diperlukan. 😊
