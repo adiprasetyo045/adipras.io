@@ -23,7 +23,7 @@ sections:
         Selain itu, saya menikmati mendesain antarmuka pengguna dengan Figma untuk menciptakan pengalaman yang menarik.
       button:
         text: Unduh CV
-        url: uploads/resume.pdf
+        url: https://drive.google.com/file/d/1WdHIvswln6AQCqG2jckI2kO0lvbJWGGd/view?usp=drive_link
     design:
       css_class: dark
       background:
