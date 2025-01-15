@@ -38,9 +38,7 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/adiprasetyo/
   - icon: brands/github
-    url: https://github.com/adiprasetyo
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://github.com/adiprasetyo045/adipras.io.git
    
 
 interests:

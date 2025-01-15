@@ -119,7 +119,6 @@ sections:
         Anda dapat melihat beberapa karya saya di:
         
         - [GitHub](https://github.com/adiprasetyo045/adipras.io.git)
-        - [LinkedIn](https://linkedin.com/in/adiprasetyo)
         
         Jangan ragu untuk mengeksplorasi atau memberikan kontribusi!
       button:
