@@ -12,7 +12,7 @@ design:
 sections:
   - block: resume-experience
     content:
-      username: adi prasetyo
+      username: admin
     design:
       # Hugo date format
       date_format: 'January 2025'
@@ -21,15 +21,15 @@ sections:
   - block: resume-skills
     content:
       title: Skills & Hobbies
-      username: adi prasetyo
+      username: admin
     design:
       show_skill_percentage: false
   - block: resume-awards
     content:
       title: Awards
-      username: adi prasetyo
+      username: admin
   - block: resume-languages
     content:
       title: Languages
-      username: adi prasetyo
+      username: admin
 ---
