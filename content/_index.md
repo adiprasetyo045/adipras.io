@@ -13,14 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |
-        Halo! Saya **Adi Prasetyo**, seorang mahasiswa Teknik Perangkat Lunak di ITESA Semarang. 
-        Saya memiliki minat dalam pengembangan aplikasi berbasis web, teknologi blockchain, 
-        dan kecerdasan buatan. Saat ini, saya bekerja sebagai intern di Dicoding Academy, 
-        tempat saya mengembangkan kemampuan dalam pengembangan perangkat lunak modern.
-        
-        Saya juga berpengalaman menggunakan teknologi seperti Python, JavaScript, SQL, dan Git. 
-        Selain itu, saya menikmati mendesain antarmuka pengguna dengan Figma untuk menciptakan pengalaman yang menarik.
+      text: ""
       button:
         text: Download CV
         url: https://drive.google.com/file/d/1WdHIvswln6AQCqG2jckI2kO0lvbJWGGd/view?usp=drive_link

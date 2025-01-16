@@ -160,6 +160,8 @@ awards:
       I was awarded the Informatics Diploma at the high school level for demonstrating excellence in the study and application of computer science and information technology. This recognition reflects my strong understanding of core informatics principles, including programming, data management, and system design, which I developed throughout my high school education.
 ---
 
-## About Me
+## Tentang Saya
 
-Adi Prasetyo adalah mahasiswa Rekayasa Perangkat Lunak di ITESA Muhammadiyah Semarang, dengan minat dalam pengembangan perangkat lunak berbasis web dan mobile serta penelitian yang mengintegrasikan teknologi AI dalam pengembangan software. Saya fokus pada pengembangan aplikasi prototipe untuk mempercepat siklus pengujian dan iterasi produk, memungkinkan umpan balik yang lebih cepat dan peningkatan fungsionalitas aplikasi yang lebih efisien.
+"Halo! Saya Adi Prasetyo, seorang mahasiswa Teknik Perangkat Lunak di ITESA Semarang. Saya memiliki minat dalam pengembangan aplikasi berbasis web, blockchain (terutama aplikasi terdesentralisasi dan kontrak pintar), dan kecerdasan buatan. 
+       
+Saya berpengalaman menggunakan teknologi seperti Python, JavaScript, SQL, dan Git. Selain itu, saya menikmati mendesain antarmuka pengguna dengan Figma untuk menciptakan pengalaman yang menarik."
