@@ -118,15 +118,16 @@ sections:
         Saya membangun berbagai proyek open-source dan tutorial teknologi. 
         Anda dapat melihat beberapa karya saya di:
         
-        - [GitHub](https://github.com/adiprasetyo045/adipras.io.git)
+        - [GitHub](https://github.com/adiprasetyo045/adipras.io.git){: style="color: black;" }
         
         Jangan ragu untuk mengeksplorasi atau memberikan kontribusi!
       button:
         text: Lihat Proyek di GitHub
-        url: https://github.com/adiprasetyo045/adipras.io.git
+        url: https://github.com/adiprasetyo045/adipras.io.git 
     design:
       card:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
-        css_style: "background-color: #65000b;"
+        css_style: "background-color: #65000b
+
 ---
