@@ -119,6 +119,11 @@ sections:
         Anda dapat melihat beberapa karya saya di:
         
         - [GitHub](https://github.com/adiprasetyo045/adipras.io.git){: style="color: black;" }
+        - [GitHub](https://github.com/adiprasetyo045/adipras.io.git){: .github-link }
+        .github-link {
+    color: black;
+}
+
         
         Jangan ragu untuk mengeksplorasi atau memberikan kontribusi!
       button:
@@ -129,5 +134,4 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: "background-color: #65000b
-
 ---
