@@ -119,12 +119,7 @@ sections:
         Anda dapat melihat beberapa karya saya di:
         
         - [GitHub](https://github.com/adiprasetyo045/adipras.io.git){: style="color: black;" }
-        - [GitHub](https://github.com/adiprasetyo045/adipras.io.git){: .github-link }
-        .github-link {
-    color: black;
-}
-
-        
+          
         Jangan ragu untuk mengeksplorasi atau memberikan kontribusi!
       button:
         text: Lihat Proyek di GitHub
