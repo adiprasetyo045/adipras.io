@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Tools yang Dikuasai
 cms_exclude: true
 #url: talk
 
