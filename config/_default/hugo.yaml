@@ -6,7 +6,7 @@
 # Website name
 title: PrasWorks
 # Website URL
-baseURL:"https://adiprasetyo045.github.io/adipras.io/"
+baseURL: "https://adiprasetyo045.github.io/adipras.io/"
 
 ############################
 ## LANGUAGE
