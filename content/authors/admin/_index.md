@@ -88,7 +88,7 @@ work:
     company_logo: ""
     date_start: 2021-01-01
     date_end: ""
-    summary: |2-
+    summary: |
      - Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
   - position: Backend Software Engineer
     company_name: X
@@ -127,11 +127,11 @@ skills:
       - name: Bersepeda
         description: ""
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: bersepeda
+      - name: Menonton Film
         description: ""
         percent: 100
-        icon: cat
+        icon: nonton
       - name: Photography
         description: ""
         percent: 80
