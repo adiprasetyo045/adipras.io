@@ -89,6 +89,7 @@ work:
     date_start: 2021-01-01
     date_end: ""
     summary: |
+    
      - Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
   - position: Backend Software Engineer
     company_name: X
