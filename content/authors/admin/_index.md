@@ -85,11 +85,10 @@ work:
   - position: Software Developer Intern
     company_name: Dicoding Academy
     company_url: 'https://www.dicoding.com/'
-    company_logo: ''
+    company_logo: ""
     date_start: 2021-01-01
-    date_end: '2022-01-01'
-    summary: |
-
+    date_end: ""
+    summary: |2-
      Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
     
   - position: Backend Software Engineer
@@ -107,19 +106,19 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: 'pemrograman data dan AI'
+        description: ""
         percent: 80
         icon: code-bracket
       - name: Git
-        description: 'Version Control'
+        description: ""
         percent: 100
         icon: chart-bar
       - name: SQL
-        description: 'Manajemen basis data'
+        description: ""
         percent: 75
         icon: circle-stack
       - name: Figma
-        description: 'Alat desain UI/UX untuk membuat prototype dan antar muka pengguna'
+        description: ""
         percent: 75
         icon: circle-stack
   - name: Hobbies
@@ -127,15 +126,15 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Bersepeda
-        description: 'Menjaga kesehatan fisik'
+        description: ""
         percent: 60
         icon: person-simple-walk
       - name: Cats
-        description: ''
+        description: ""
         percent: 100
         icon: cat
       - name: Photography
-        description: 'Dokumentasi landscape dan potret'
+        description: ""
         percent: 80
         icon: camera
 
