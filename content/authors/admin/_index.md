@@ -135,20 +135,18 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Sertifikasi Mikrosoft
+  - title: Sertifikasi Microsoft
     url: https://drive.google.com/file/d/1gmnlsV27Bna3vS72C8GqKfLLFWOYrlFm/view?usp=drive_link
     date: '2025-01-16'
     awarder: Institut Teknologi Statistika dan Bisnis Muhammadiyah Semarang
     summary: |
       Saya memperoleh Sertifikasi Microsoft setelah menyelesaikan program pelatihan yang komprehensif untuk meningkatkan kemampuan dalam teknologi Microsoft. Sertifikasi ini mengakui keahlian saya dalam menggunakan alat-alat Microsoft untuk menyelesaikan tantangan bisnis secara efektif, mencerminkan keterampilan yang kuat dalam produktivitas dan solusi perangkat lunak.
-  - title: Informatics Diploma
-    url: https://drive.google.com/file/d/1k8f2dCjsQ4rU65hCeO38iVsl_2reabNI/view?usp=drive_link
+  - title: Sertifikasi Informatika
+    url: https://drive.google.com/file/d/1uyLlCUHw4OiW6m6qr8qmK2lLrONDlI_l/view?usp=drive_link
     date: '2023-05-19'
     awarder: SMA Muhammadiyah 1 Wonogiri
     summary: |
-      I was awarded the Informatics Diploma at the high school level for demonstrating excellence in the study and application of computer science and information technology. This recognition reflects my strong understanding of core informatics principles, including programming, data management, and system design, which I developed throughout my high school education.
-    
-  
+      Saya mendapatkan Sertifikasi Informatika di tingkat sekolah menengah atas karena menunjukkan keunggulan dalam studi dan aplikasi ilmu komputer serta teknologi informasi. Pengakuan ini mencerminkan pemahaman saya yang kuat tentang prinsip-prinsip inti informatika, termasuk pemrograman, manajemen data, dan desain sistem, yang saya kembangkan selama pendidikan di SMA.
 ---
 
 ## Tentang Saya
