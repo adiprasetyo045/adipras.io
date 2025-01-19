@@ -6,24 +6,24 @@ tags:
   - UI/UX  
   - Figma  
   - Mockup Design  
----  
+  - E-commerce  
+---
 
 **Proyek Mockup UI/UX Go-Belanja**  
 
-Go-Belanja adalah konsep aplikasi belanja daring yang dirancang untuk memberikan pengalaman pengguna yang intuitif, modern, dan responsif. Proyek ini bertujuan untuk mengembangkan desain antarmuka yang memudahkan pengguna dalam menjelajahi katalog produk, melakukan pembelian, dan melacak pesanan dengan mudah.  
+**Go-Belanja** adalah konsep aplikasi belanja daring yang dirancang untuk memberikan pengalaman pengguna yang intuitif, modern, dan responsif. Proyek ini bertujuan mengembangkan desain antarmuka yang memudahkan pengguna menjelajahi katalog produk, melakukan pembelian, dan melacak pesanan dengan mudah.  
 
 ### Gambaran Proyek  
 
-Proyek ini dimulai dengan penelitian mendalam tentang kebutuhan pengguna dan tren desain terkini. Menggunakan Figma sebagai alat utama, mockup ini mencakup:  
-- **Desain Halaman Utama**: Menampilkan navigasi yang jelas, promosi produk, dan kategori yang terorganisir.  
+Proyek dimulai dengan penelitian mendalam tentang kebutuhan pengguna dan tren desain terkini. Menggunakan Figma sebagai alat utama, mockup ini mencakup:  
+- **Halaman Utama**: Menampilkan navigasi jelas, promosi produk, dan kategori terorganisir.  
 - **Halaman Detail Produk**: Memberikan informasi lengkap tentang produk, termasuk ulasan pengguna, harga, dan opsi pembelian.  
-- **Fitur Keranjang Belanja**: Menyediakan pengalaman belanja yang mulus dengan opsi pembayaran yang aman dan transparan.  
+- **Fitur Keranjang Belanja**: Memfasilitasi pengalaman belanja yang mulus dengan opsi pembayaran aman dan transparan.  
 
 ### Tujuan Utama  
-- Meningkatkan kepuasan pengguna melalui antarmuka yang sederhana namun menarik.  
-- Menciptakan desain yang responsif untuk pengalaman optimal di perangkat seluler maupun desktop.  
+
+- Meningkatkan kepuasan pengguna melalui antarmuka yang sederhana dan menarik.  
+- Menciptakan desain responsif untuk pengalaman optimal di perangkat seluler dan desktop.  
 - Mengintegrasikan elemen visual yang memperkuat identitas merek.  
 
-Hasil dari proyek ini berupa mockup UI/UX yang siap digunakan untuk pengembangan aplikasi. Desain ini dapat diunduh dan dieksplorasi lebih lanjut melalui tautan berikut: [Download Mockup UI/UX Go-Belanja](https://drive.google.com/file/d/1lT_uLHeidsr6xI7bqXWb1IQ9aHRkzMRR/view?usp=drive_link).  
-
-<!--more-->  
+Hasil dari proyek ini berupa mockup UI/UX yang siap digunakan untuk pengembangan aplikasi. Mockup dapat diunduh melalui tautan berikut: [Download Mockup UI/UX Go-Belanja](https://drive.google.com/file/d/1lT_uLHeidsr6xI7bqXWb1IQ9aHRkzMRR/view?usp=drive_link).  
