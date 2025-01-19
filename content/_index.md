@@ -91,8 +91,6 @@ sections:
         Saya membangun berbagai proyek open-source dan tutorial teknologi. 
         Anda dapat melihat beberapa karya saya di:
         
-        - [GitHub](https://github.com/adiprasetyo045/adipras.io.git)
-        
         Jangan ragu untuk mengeksplorasi atau memberikan kontribusi!
       button:
         text: Lihat Proyek di GitHub
