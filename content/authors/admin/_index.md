@@ -39,13 +39,12 @@ profiles:
     url: https://www.instagram.com/adiprasetyo/
   - icon: brands/github
     url: https://github.com/adiprasetyo045/adipras.io.git
-   
 
 interests:
   - Software Engineering
   - Web Development
   - Mobile Application Development
-  - Prototype Application Development
+  - UI/UX Design
 
 education:
   - area: S1 Rekayasa Perangkat Lunak
@@ -79,24 +78,24 @@ education:
       - Computer System
       - Monitoring Progress
       - Introduction to LMS
+
 work:
-  - position: Staff Rumah Makan Angkringan pak mo
-    company_name: Rumah Makan Angkringan pak mo
+  - position: Staff Rumah Makan Angkringan Pak Mo
+    company_name: Rumah Makan Angkringan Pak Mo
     company_url: ""
     company_logo: ""
     date_start: 2023-06-20
     date_end: 2023-08-01
     summary: |
       Bertugas melayani pelanggan dengan ramah, menjaga kebersihan lingkungan rumah makan, membantu persiapan makanan dan minuman, serta memastikan operasional harian berjalan lancar.
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+
 skills:
   - name: Technical Skills
     items:
       - name: Git
         description: ""
         percent: 100
-        icon:  assets/media/icons/git.png
+        icon: assets/media/icons/git.png
       - name: SQL
         description: ""
         percent: 75
@@ -105,6 +104,14 @@ skills:
         description: ""
         percent: 75
         icon: assets/media/icons/figma.png
+      - name: Python
+        description: ""
+        percent: 80
+        icon: assets/media/icons/python.png
+      - name: JavaScript
+        description: ""
+        percent: 80
+        icon: assets/media/icons/javascript.png
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'

@@ -1,1 +1,1 @@
-Nama saya adi prasetyo, saya adalah mahasiswa jurusan rekayasa perangkat lunak di itesa. Saat ini, saya fokus dalam mempelajari bidang tertentu dalam jurusan ini
+"Maaf, server sedang mengalami gangguan teknis dan sedang dalam proses perbaikan. Mohon bersabar, dan kami akan segera mengembalikan layanan seperti biasa. Terima kasih atas pengertiannya."
