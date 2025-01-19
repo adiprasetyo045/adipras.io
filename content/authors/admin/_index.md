@@ -59,13 +59,11 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: SMA Rekayasa Perangkat Lunak
+  - area: SMA Muhammadiyah 1 Wonogiri
     institution: SMA Muhammadiyah 1 Wonogiri
     date_start: 2020-01-01
     date_end: 2023-12-12
     summary: |
-      GPA: 3.8/4.0
-
       Courses included:
       - Computer System
       - Multimedia
@@ -75,7 +73,6 @@ education:
     date_start: 2017-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.4/4.0
       Mulai mengembangkan minat di bidang teknologi dan pemrograman.
 
       Courses included:
@@ -83,23 +80,14 @@ education:
       - Monitoring Progress
       - Introduction to LMS
 work:
-  - position: Software Developer Intern
-    company_name: Dicoding Academy
-    company_url: 'https://www.dicoding.com/'
+  - position: Staff Rumah Makan Angkringan pak mo
+    company_name: Rumah Makan Angkringan pak mo
+    company_url: ""
     company_logo: ""
-    date_start: 2021-01-01
-    date_end: ""
+    date_start: 2023-06-20
+    date_end: 2023-08-01
     summary: |
-     Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2023-01-01
-    date_end: 2024-12-31
-    summary: |
-     Mengembangkan dan memelihara sistem backend untuk aplikasi skala besar.
-      
+      Bertugas melayani pelanggan dengan ramah, menjaga kebersihan lingkungan rumah makan, membantu persiapan makanan dan minuman, serta memastikan operasional harian berjalan lancar.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -136,7 +124,7 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 30
   - name: Indonesia
     percent: 80
   - name: Jawa
@@ -147,12 +135,20 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Sertifikasi Mikrosoft
+    url: https://drive.google.com/file/d/1gmnlsV27Bna3vS72C8GqKfLLFWOYrlFm/view?usp=drive_link
+    date: '2025-01-16'
+    awarder: Institut Teknologi Statistika dan Bisnis Muhammadiyah Semarang
+    summary: |
+      Saya memperoleh Sertifikasi Microsoft setelah menyelesaikan program pelatihan yang komprehensif untuk meningkatkan kemampuan dalam teknologi Microsoft. Sertifikasi ini mengakui keahlian saya dalam menggunakan alat-alat Microsoft untuk menyelesaikan tantangan bisnis secara efektif, mencerminkan keterampilan yang kuat dalam produktivitas dan solusi perangkat lunak.
   - title: Informatics Diploma
     url: https://drive.google.com/file/d/1k8f2dCjsQ4rU65hCeO38iVsl_2reabNI/view?usp=drive_link
     date: '2023-05-19'
     awarder: SMA Muhammadiyah 1 Wonogiri
     summary: |
       I was awarded the Informatics Diploma at the high school level for demonstrating excellence in the study and application of computer science and information technology. This recognition reflects my strong understanding of core informatics principles, including programming, data management, and system design, which I developed throughout my high school education.
+    
+  
 ---
 
 ## Tentang Saya
