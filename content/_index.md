@@ -56,26 +56,6 @@ sections:
       view: article-grid
       columns: 2
   - block: collection
-    content:
-      title: Publikasi Terbaru
-      text: "Berikut adalah beberapa publikasi dan proyek terbaru yang telah saya kerjakan:"
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Presentasi & Acara Terbaru
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
     id: news
     content:
       title: Berita Terbaru
