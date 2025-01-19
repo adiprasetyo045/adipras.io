@@ -1,3 +1,4 @@
+---
 title: Proyek Mockup UI/UX Go-Belanja  
 date: 2024-11-14  
 external_link: https://drive.google.com/file/d/1lT_uLHeidsr6xI7bqXWb1IQ9aHRkzMRR/view?usp=drive_link  
