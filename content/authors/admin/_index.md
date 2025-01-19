@@ -11,7 +11,7 @@ last_name: Prasetyo
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,7 +24,7 @@ role: Mahasiswa Rekayasa Perangkat Lunak
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ITESA Muhammadiyah Semarang
+  - name: Institut Teknologi Statistika dan Bisnis Muhammadiyah Semarang
     url: https://itesa.ac.id/
 
 # Social network links
@@ -48,7 +48,7 @@ interests:
 
 education:
   - area: S1 Rekayasa Perangkat Lunak
-    institution: ITESA Muhammadiyah Semarang
+    institution: Institut Teknologi Statistika dan Bisnis Muhammadiyah Semarang
     date_start: 2023-06-03
     date_end: 2027-06-03
     summary: |
@@ -56,13 +56,15 @@ education:
       pengembangan aplikasi berbasis web dan mobile. Tertarik dalam penelitian
       yang mengintegrasikan teknologi AI dalam pengembangan software.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: "Lihat Portofolio"
+      url: "https://github.com/adiprasetyo045"
   - area: SMA Muhammadiyah 1 Wonogiri
     institution: SMA Muhammadiyah 1 Wonogiri
     date_start: 2020-01-01
     date_end: 2023-12-12
     summary: |
+     GPA: 86.14/100
+
       Courses included:
       - Computer System
       - Multimedia
@@ -71,7 +73,7 @@ education:
     institution: SMP Muhammadiyah 7 Eromoko
     date_start: 2017-01-01
     date_end: 2020-12-31
-    summary: |
+    summary: |2-
       Mulai mengembangkan minat di bidang teknologi dan pemrograman.
 
       Courses included:
@@ -104,14 +106,6 @@ skills:
         description: ""
         percent: 75
         icon: assets/media/icons/figma.png
-      - name: Python
-        description: ""
-        percent: 80
-        icon: assets/media/icons/python.png
-      - name: JavaScript
-        description: ""
-        percent: 80
-        icon: assets/media/icons/javascript.png
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
