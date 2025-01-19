@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Adi prasetyo
+title: Adi Prasetyo
 
 # Name pronunciation (optional)
 name_pronunciation: 
@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Mahasiswa rekayasa perangkat lunak
+role: Mahasiswa Rekayasa Perangkat Lunak
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ITESA muhammadiyah semarang
+  - name: ITESA Muhammadiyah Semarang
     url: https://itesa.ac.id/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'prasetyaadhi398@gmail.com'
+    url: 'mailto:prasetyaadhi398@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -59,27 +59,28 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: SMA Muhammadiyah 1 Wonogiri
-    institution: SMA muhammadiyah 1 wonogiri
+  - area: SMA Rekayasa Perangkat Lunak
+    institution: SMA Muhammadiyah 1 Wonogiri
     date_start: 2020-01-01
     date_end: 2023-12-12
     summary: |
       GPA: 3.8/4.0
 
-       Courses included:
+      Courses included:
       - Computer System
       - Multimedia
       - Information Security
-  - area: SMP Muhammadiyah 7 Eromoko
-    institution: SMP muhammadiyah 7 eromoko
+  - area: SMP
+    institution: SMP Muhammadiyah 7 Eromoko
     date_start: 2017-01-01
     date_end: 2020-12-31
     summary: |
       GPA: 3.4/4.0
-      mulai mengembangkan minat di bidang teknologi dan pemrograman.
+      Mulai mengembangkan minat di bidang teknologi dan pemrograman.
+
       Courses included:
       - Computer System
-      - Monitoring progress
+      - Monitoring Progress
       - Introduction to LMS
 work:
   - position: Software Developer Intern
@@ -89,8 +90,7 @@ work:
     date_start: 2021-01-01
     date_end: ""
     summary: |
-    
-     - Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
+     Berkontribusi dalam pengembangan dan optimasi platform edukasi digital.
   - position: Backend Software Engineer
     company_name: X
     company_url: ''
@@ -105,22 +105,18 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ""
-        percent: 80
-        icon: code-bracket
       - name: Git
         description: ""
         percent: 100
-        icon: chart-bar
+        icon:  assets/media/icons/git.png
       - name: SQL
         description: ""
         percent: 75
-        icon: circle-stack
+        icon: assets/media/icons/sql.png
       - name: Figma
         description: ""
         percent: 75
-        icon: circle-stack
+        icon: assets/media/icons/figma.png
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -128,11 +124,11 @@ skills:
       - name: Bersepeda
         description: ""
         percent: 60
-        icon: bersepeda
+        icon: bicycle
       - name: Menonton Film
         description: ""
         percent: 100
-        icon: nonton
+        icon: film
       - name: Photography
         description: ""
         percent: 80
@@ -154,7 +150,7 @@ awards:
   - title: Informatics Diploma
     url: https://drive.google.com/file/d/1k8f2dCjsQ4rU65hCeO38iVsl_2reabNI/view?usp=drive_link
     date: '2023-05-19'
-    awarder: Sma muhammadiyah 1 wonogiri
+    awarder: SMA Muhammadiyah 1 Wonogiri
     summary: |
       I was awarded the Informatics Diploma at the high school level for demonstrating excellence in the study and application of computer science and information technology. This recognition reflects my strong understanding of core informatics principles, including programming, data management, and system design, which I developed throughout my high school education.
 ---
